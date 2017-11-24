@@ -20,6 +20,11 @@ namespace SHA512Project
             Response.Write(_resultado);
         }
 
+        /// <summary>
+        /// Método que recebe valor
+        /// </summary>
+        /// <param name="valor"></param>
+        /// <returns></returns>
         private String criptografadaSHA512(string valor)
         {
             var _stringHash = "";
